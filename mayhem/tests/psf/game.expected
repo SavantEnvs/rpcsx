@@ -1,0 +1,10 @@
+errc=0 entries=7
+APP_VER	string	01.00	max=8
+ATTRIBUTE	integer	32
+CATEGORY	string	DG	max=4
+PARENTAL_LEVEL	integer	3
+TITLE	string	Mayhem Test Game	max=128
+TITLE_ID	string	BLUS00001	max=16
+VERSION	string	01.00	max=8
+TITLE_ID=BLUS00001
+roundtrip ok

@@ -1,0 +1,11 @@
+project: savantenvs/rpcsx
+target: fuzz_pup
+
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_pup
+    libfuzzer: true
+    timeout: 5
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_pup/testsuite
